@@ -2,7 +2,7 @@ import os
 import random
 import torch
 
-from training import networks
+from . import networks
 
 
 class GANModel(torch.nn.Module):
