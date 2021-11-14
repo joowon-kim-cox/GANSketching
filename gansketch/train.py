@@ -3,8 +3,8 @@ import argparse
 import torch
 import torch.multiprocessing as mp
 
-from training.gan_trainer import GANTrainer
-from training.dataset import create_dataloader, yield_data
+from .training.gan_trainer import GANTrainer
+from .training.dataset import create_dataloader, yield_data
 
 
 def training_loop(args:argparse.Namespace):
