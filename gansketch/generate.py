@@ -5,7 +5,7 @@ import random
 import numpy as np
 import torch
 from torchvision import utils
-from training.networks.stylegan2 import Generator
+from .training.networks.stylegan2 import Generator
 
 
 def save_image_pytorch(img, name):
