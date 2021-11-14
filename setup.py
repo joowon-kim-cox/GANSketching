@@ -4,7 +4,7 @@ setup(
     name='gansketch',
     version='0.1.0',
     url='https://github.com/joowon-kim-cox/GANSketching.git',
-    packages=['./'],
+    packages=find_packages(),
     zip_safe=False,
     description='gan-sketch',
 )
